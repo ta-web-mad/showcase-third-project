@@ -1,70 +1,73 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-    <link rel="stylesheet" href="styles.css" />
-    <link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet" />
-    <title>Iron Third Projects</title>
-  </head>
-  <body>
-    <div class="logo">
-      <img src="https://ironhacktas.github.io/iron-games/img/logo.svg" alt="logo ironhack" />
-      <h1>Ironhack Third Projects</h1>
-    </div>
-    <div class="container">
-      <ul>
-        <!-- <li><a target="_blank" href="https://ironhacktas.github.io/iron-games/escape-room/index.html">Escape Room</a></li> -->
-        <!-- <li><a target="_blank" href="https://yunevk.github.io/Kokoro/">Kokoro</a></li> -->
-        <!-- <li><a target="_blank" href="https://ironhacktas.github.io/iron-games/tris-te/index.html">tris-te</a></li> -->
-        <li>
-          <a
-            target="_blank"
-            href="https://nhf-reactapp.herokuapp.com/
-"
-            >NHF</a
-          >
-        </li>
-        <li>
-          <a
-            target="_blank"
-            href="https://showmethemoney-dhh.herokuapp.com/
-"
-            >Show me the money</a
-          >
-        </li>
-      </ul>
-      <ul>
-        <li>
-          <a
-            target="_blank"
-            href="https://muchocuento.herokuapp.com
-            "
-            >Mucho cuento</a
-          >
-          <p class="hidden">Crispy 012345678</p>
-        </li>
-        <li><a target="_blank" href="https://elcalvodelaloteria.herokuapp.com">El calvo de la loteria</a></li>
-        <li>
-          <a target="_blank" href="https://kledor-app.herokuapp.com/dashboard">Kledor</a>
-          <p class="hidden">Raluca popino</p>
-        </li>
-        <!-- <li>
-          <a target="_blank" href="https://snow-app.herokuapp.com/">Snow App</a>
-          <p class="hidden">popinoteacher popinoteacher<br />popino2 popino2</p>
-        </li> -->
-      </ul>
-      <ul>
-        <li>
-          <a target="_blank" href="https://think-app.herokuapp.com">Think App</a>
-          <p class="hidden">Raluca popino</p>
-        </li>
-        <li>
-          <a target="_blank" href="https://bbrss.herokuapp.com/">BBRSS</a>
-          <p class="hidden">popino popino</p>
-        </li>
-      </ul>
-    </div>
-  </body>
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<meta http-equiv="X-UA-Compatible" content="ie=edge" />
+		<link rel="stylesheet" href="styles.css" />
+		<link href="https://fonts.googleapis.com/css?family=Roboto+Mono:300,400" rel="stylesheet" />
+		<title>Iron Third Projects</title>
+	</head>
+	<body>
+		<div class="logo">
+			<img src="https://ironhacktas.github.io/iron-games/img/logo.svg" alt="logo ironhack" />
+			<h1>Ironhack Third Projects</h1>
+		</div>
+		<div class="container">
+			<ul>
+				<!-- <li><a target="_blank" href="https://ironhacktas.github.io/iron-games/escape-room/index.html">Escape Room</a></li> -->
+				<!-- <li><a target="_blank" href="https://yunevk.github.io/Kokoro/">Kokoro</a></li> -->
+				<!-- <li><a target="_blank" href="https://ironhacktas.github.io/iron-games/tris-te/index.html">tris-te</a></li> -->
+				<li>
+					<a target="_blank" href="https://geomapping-1.herokuapp.com/">Geomapping</a>
+					<small><p class="hidden">David 1234</p></small>
+				</li>
+				<li>
+					<a target="_blank" href="https://schoolhack.herokuapp.com/">Schoolhack</a>
+					<small><p class="hidden">lucianasvina 1234</p></small>
+					<small><p class="hidden">LuriLurika 1234</p></small>
+					<small><p class="hidden">Scarl 1234</p></small>
+				</li>
+				<li>
+					<a target="_blank" href="https://play-my-retro.herokuapp.com/">Play my retro</a>
+					<small><p class="hidden">aru admin</p></small>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a target="_blank" href="https://fainder.herokuapp.com/">Fainder</a>
+					<small><p class="hidden">LauEle 123 LauEle S.l. 123</p></small>
+				</li>
+				<li>
+					<a target="_blank" href="https://elcalvodelaloteria.herokuapp.com">El calvo de la loteria</a>
+					<small> <p class="hidden">popino popino</p></small>
+				</li>
+				<li>
+					<a target="_blank" href="https://codecarry.herokuapp.com/">CodeCarry</a>
+					<small><p class="hidden">Andres 1234</p></small>
+					<small><p class="hidden">Bill Gates bbb</p></small>
+				</li>
+			</ul>
+			<ul>
+				<li>
+					<a target="_blank" href="https://cuentame-mas.herokuapp.com/">Cuentame-mas</a>
+					<small><p class="hidden">Yai yai</p></small>
+				</li>
+				<li>
+					<a target="_blank" href="https://bringyourowngame.herokuapp.com/">Bring your own game</a>
+					<small><p class="hidden">Alejandro 123</p></small>
+				</li>
+				<li>
+					<a target="_blank" href="http://letmechoose.herokuapp.com/">Let me choose</a>
+					<small><p class="hidden">Patylla paty</p></small>
+				</li>
+			</ul>
+		</div>
+		<script>
+			function show(e) {
+				e.ctrlKey && document.querySelectorAll('li > small > p').forEach(elm => elm.classList.toggle('hidden'))
+			}
+			document.querySelector('.logo').addEventListener('click', show)
+		</script>
+	</body>
 </html>
