@@ -1,4 +1,4 @@
-<h1>Showcase de Videojuegos</h1>
+<h1>Showcase de Proyectos SPA</h1>
 
 <section>
 <h2>Instrucciones</h2>
